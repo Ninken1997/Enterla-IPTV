@@ -13,7 +13,23 @@ M3U dosyası / adresi veya Xtream hesabıyla kullanılır. Kanal veya abonelik i
 
 **Güncellemeler:** Ayarlar → Hakkında → Sürüm / Güncelle. İndirme sonrası Android'in Yükle onayı gerekir. İlk kurulumda Android, APK'yı açan uygulama için yükleme izni isteyebilir. 1.0.10 ve öncesi sürümlerden gelenler güncelleme özelliğini almak için yeni APK'yı bir kez elle kurmalıdır.
 
-Minimum Android 8.0. Samsung Tizen / LG webOS'a doğrudan kurulmaz; Android TV / Google TV cihazı gerekir. Otomatik açılışın üreticinin cihazında ayrıca denenmesi önerilir.
+## Nerede çalışır?
+
+| Cihaz / sistem | Durum |
+| --- | --- |
+| Android TV / Google TV, Android 8.0 ve üzeri | Hedeflenen sistem. Xiaomi TV Stick / TV Box, NVIDIA Shield ve Android TV kullanan TV'lerde uygun APK kurulabilir. |
+| Sony / TCL / Philips vb. TV | Markadan çok işletim sistemi önemlidir; cihaz Android TV / Google TV olmalıdır. |
+| Samsung Tizen / LG webOS | Doğrudan çalışmaz. HDMI üzerinden Android TV / Google TV kutusu veya Stick gerekir. |
+| Apple TV (tvOS), Roku | Bu Android APK doğrudan çalışmaz. |
+| Android 7.1 ve daha eski | Kurulmaz; minimum Android 8.0 gerekir. |
+| Telefon / tablet | TV ve kumanda için tasarlanmıştır; mobil kullanım desteği verilmez. |
+| Windows / macOS / iPhone / iPad | Yerel uygulama olarak çalışmaz. |
+
+**Doğrulanan ortamlar:** Android 9 Xiaomi Mi TV Stick üzerinde kullanım; Android 9 ve Android 16 TV emülatörlerinde hedefli testler. Bütün marka / modellerde denenmiş değildir.
+
+**Görüntü ve ses:** 4K / 8K, HDR, codec, ses çıkışı ve DRM desteği yayın kaynağına, cihaza ve TV'ye bağlıdır. Uygulama düşük çözünürlüklü yayını 4K'ya dönüştürmez ve her biçimin her cihazda açılacağını garanti etmez.
+
+**Otomatik açılış:** Android 9 Mi Stick'te standart sürümle doğrulanmıştır. Yeni Android TV sürümlerinde açılış yardımcılı APK ve Android erişilebilirlik izni gerekebilir; üreticinin güç / HDMI-CEC davranışı ayrıca denenmelidir.
 
 [Sürüm geçmişi](CHANGELOG.md)
 
