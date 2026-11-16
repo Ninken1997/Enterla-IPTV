@@ -1,42 +1,62 @@
-# Enterla IPTV
+# Enterla IPTV — IPTV Player for Android TV
 
-Android TV / Google TV için ücretsiz, çok dilli M3U ve Xtream oynatıcısı.
+**English** · [Türkçe](README.tr.md)
 
-**[En güncel APK'yı indir](https://github.com/Ninken1997/Enterla-IPTV/releases/latest)**
+A free IPTV player app for **Android TV and Google TV**. Watch your own **M3U playlists** and **Xtream accounts**, with live TV, movies and series in a simple interface built for a TV remote.
 
-- Standart APK: çoğu kullanıcı için başlangıç seçeneği.
-- Açılış yardımcılı APK: yeni Android TV sürümlerinde isteğe bağlı otomatik açılış desteği.
+**[Download the latest APK](https://github.com/Ninken1997/Enterla-IPTV/releases/latest)** · [Release history](CHANGELOG.md)
 
-İki APK aynı uygulamanın seçenekleridir; yan yana kurulmazlar. Güncellerken uygulamayı kaldırmayın, kullandığınız APK çeşidinin üzerine kurun. Listeler ve ayarlar korunur.
+Enterla IPTV is a player. **No channels, playlists or subscriptions are included.** Bring your own playlist or provider account.
 
-M3U dosyası / adresi veya Xtream hesabıyla kullanılır. Kanal veya abonelik içermez. Büyük yazı, belirgin kumanda odağı, kanal paneli, film / dizi kategorileri ve cihaz uyumu ayarları sunar.
+## Designed for everyday TV viewing
 
-**Güncellemeler:** Ayarlar → Güncellemeler. İndirme sonrası Android'in Yükle onayı gerekir. İlk kurulumda Android, APK'yı açan uygulama için yükleme izni isteyebilir. 1.0.10 ve öncesi sürümlerden gelenler güncelleme özelliğini almak için yeni APK'yı bir kez elle kurmalıdır.
+- Load an M3U file or playlist URL, or sign in with an Xtream server, username and password.
+- Browse live channels beside a video preview. Open a channel panel over full-screen TV and jump through long lists page by page.
+- Browse your provider's movie and series categories, artwork, seasons and episodes.
+- Adjust text size and channel rows independently. Choose a plain list or two-column channel cards when artwork is available.
+- Use clear remote focus, optional channel logos, custom colors, audio and subtitle preferences.
+- Resume your last channel in full screen or preview, or open the list without starting playback. Automatic startup is available where the device allows it.
+- See actual video resolution and download speed in the playback info panel.
 
-**Dil:** Android'in dili otomatik kullanılır; desteklenmeyen dillerde İngilizce açılır. Ayarlar → Dil bölümünden elle seçim yapılabilir ve tercihiniz korunur. Türkçe, İngilizce, Almanca, İspanyolca, İtalyanca, Japonca, Brezilya Portekizcesi, Rusça ve Basitleştirilmiş Çince desteklenir. Sağlayıcının kanal adları ve kategorileri değişmez.
+## Install or update
 
-## Nerede çalışır?
+1. Open the [latest release](https://github.com/Ninken1997/Enterla-IPTV/releases/latest) on your Android TV / Google TV device.
+2. Download the **standard APK** first. The **startup-helper APK** is an alternative for devices that need the optional automatic-startup helper.
+3. Open the APK and allow installation from the app you used to download it, if Android asks.
+4. Add your own M3U playlist or Xtream account. You can change these later in **Settings → Accounts and playlists**.
 
-| Cihaz / sistem | Durum |
+Both APKs are variants of the same application; they cannot be installed side by side. **Update over your existing installation without uninstalling it**, using the same variant. Your playlists and settings are kept.
+
+For in-app updates, open **Settings → Updates → Check again**. Download the update, then confirm **Install** in Android. The first time, Android may ask you to allow Enterla IPTV to install apps. Versions 1.0.10 and earlier need one manual APK update to get in-app updates.
+
+## Languages
+
+English, Turkish, German, Spanish, Italian, Japanese, Brazilian Portuguese, Russian and Simplified Chinese.
+
+The app follows your Android language by default and falls back to English when that language is unsupported. Choose a language in **Settings → Language** to keep your own preference. Provider channel names and categories stay as supplied; audio and subtitle preferences are separate.
+
+## Device compatibility
+
+| Device or operating system | Support |
 | --- | --- |
-| Android TV / Google TV, Android 8.0 ve üzeri | Hedeflenen sistem. Xiaomi TV Stick / TV Box, NVIDIA Shield ve Android TV kullanan TV'lerde uygun APK kurulabilir. |
-| Sony / TCL / Philips vb. TV | Markadan çok işletim sistemi önemlidir; cihaz Android TV / Google TV olmalıdır. |
-| Samsung Tizen / LG webOS | Doğrudan çalışmaz. HDMI üzerinden Android TV / Google TV kutusu veya Stick gerekir. |
-| Apple TV (tvOS), Roku | Bu Android APK doğrudan çalışmaz. |
-| Android 7.1 ve daha eski | Kurulmaz; minimum Android 8.0 gerekir. |
-| Telefon / tablet | TV ve kumanda için tasarlanmıştır; mobil kullanım desteği verilmez. |
-| Windows / macOS / iPhone / iPad | Yerel uygulama olarak çalışmaz. |
+| Android TV / Google TV, Android 8.0 or newer | Target platform. Includes compatible Xiaomi TV Stick / TV Box, NVIDIA Shield and Android TV televisions. |
+| Sony, TCL, Philips and other TV brands | Check the operating system: the TV must run Android TV or Google TV. The brand alone does not establish compatibility. |
+| Samsung Tizen / LG webOS | This APK does not run directly. Use an external Android TV / Google TV device over HDMI. |
+| Apple TV (tvOS) / Roku | This Android APK does not run directly. |
+| Android 7.1 or older | Not supported. Android 8.0 is the minimum. |
+| Android phones / tablets | Designed for TVs and remotes; a mobile interface is not supported. |
+| Windows / macOS / iPhone / iPad | Not a native app for these platforms. |
 
-**Doğrulanan ortamlar:** Android 9 Xiaomi Mi TV Stick üzerinde kullanım; Android 9 ve Android 16 TV emülatörlerinde hedefli testler. Bütün marka / modellerde denenmiş değildir.
+**Tested environments:** an Android 9 Xiaomi Mi TV Stick, plus targeted tests on Android 9 and Android 16 TV emulators. Not every device or model has been tested.
 
-**Görüntü ve ses:** 4K / 8K, HDR, codec, ses çıkışı ve DRM desteği yayın kaynağına, cihaza ve TV'ye bağlıdır. Uygulama düşük çözünürlüklü yayını 4K'ya dönüştürmez ve her biçimin her cihazda açılacağını garanti etmez.
+**Video and audio:** 4K / 8K, HDR, codecs, audio output and DRM support depend on the source, device and TV. The player does not turn a lower-resolution stream into native 4K or guarantee playback of every format.
 
-**Otomatik açılış:** Android 9 Mi Stick'te standart sürümle doğrulanmıştır. Yeni Android TV sürümlerinde açılış yardımcılı APK ve Android erişilebilirlik izni gerekebilir; üreticinin güç / HDMI-CEC davranışı ayrıca denenmelidir.
+**Automatic startup:** verified with the standard variant on the Android 9 Mi Stick. Newer Android TV devices may need the startup-helper variant and an Android accessibility permission. Power and HDMI-CEC behavior must be checked on the actual device.
 
-[Sürüm geçmişi](CHANGELOG.md)
+## About this download repository
+
+This is the official **APK distribution and release-notes repository**. The application source code is maintained separately and is not published here.
+
+The player uses AndroidX Media3 (Apache 2.0), io.put / FFmpeg audio support (Apache 2.0 / LGPL 2.1+) and AndroidX components. Notices and license texts are available in **Settings → About** and in the distribution ZIP. The matching [FFmpeg audio component source / rebuild package](https://github.com/Ninken1997/Enterla-IPTV/releases/download/v1.0.14/FFmpeg-audio-1.11.1-1-source.tar.xz) is provided separately; it is not Enterla IPTV's application source code.
 
 [Enterla](https://www.enterla.net/) · [MemoriBox](https://www.memoribox.net/)
-
-Bu alan resmî APK dağıtımı ve sürüm notları içindir.
-
-**Lisanslar:** Oynatma için AndroidX Media3 (Apache 2.0), ses uyumluluğu için io.put / FFmpeg (Apache 2.0 / LGPL 2.1+) ve AndroidX altyapısı kullanılır. Bildirimler ve tam lisans metinleri uygulamada Hakkında bölümündedir. [FFmpeg ses bileşeninin özgün kaynak / yeniden derleme paketi](https://github.com/Ninken1997/Enterla-IPTV/releases/download/v1.0.14/FFmpeg-audio-1.11.1-1-source.tar.xz) ayrı sunulur; Enterla IPTV'nin kendi kodu değildir.

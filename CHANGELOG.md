@@ -1,190 +1,164 @@
-# Sürüm notları
+# Release history
 
-En yeni sürüm üsttedir. 1.0 öncesi notlar konuşma kaydı ve eldeki APK sürümlerinden geriye dönük derlenmiştir; eksiksiz bir değişiklik dökümü değildir.
+**English** · [Türkçe](CHANGELOG.tr.md)
+
+Newest releases appear first. This is an English summary of the development history; the [Turkish history](CHANGELOG.tr.md) retains the detailed original notes. Entries before 1.0 were reconstructed from development records and available APKs, and are not a complete change log.
 
 ## 1.0.14
 
-- Dil seçimi eklendi: Android dili otomatik kullanılır; desteklenmeyen dillerde İngilizce açılır. Ayarlar → Dil bölümünden elle seçim yapılabilir.
-- Türkçe, İngilizce, Almanca, İspanyolca, İtalyanca, Japonca, Brezilya Portekizcesi, Rusça ve Basitleştirilmiş Çince eklendi. Metinler TV kullanımı için gözden geçirildi; düğmeler, kumanda yönergeleri ve terimler sadeleştirildi.
-- Dil değişimi listeleri, hesapları ve ses / altyazı tercihlerini korur. Dil dosyaları çevrimdışı kullanılır; yeni diller tek JSON dosyasıyla eklenebilir.
+- Added automatic device-language selection with English as the fallback, plus a manual picker in Settings → Language.
+- Added English, Turkish, German, Spanish, Italian, Japanese, Brazilian Portuguese, Russian and Simplified Chinese. Reviewed interface text, remote instructions and terminology for TV use.
+- Changing language preserves playlists, accounts, and audio / subtitle preferences. Translations work offline.
 
 ## 1.0.13
 
-- Ayarlarda sağ sütunda yukarı / aşağı gezerken odağın sol sekmelere kaçması düzeltildi. Ekran dışındaki seçeneklere kaydırılır; sola basınca bölüm listesine dönülür.
-- Hakkında bölümünde Hitit figürleri büyütüldü; figürlerin altındaki tekrar logo kaldırıldı.
-- Enterla ve MemoriBox QR kartları, Diğer uygulamalarımız başlığıyla en alta taşındı.
+- Fixed focus jumping from the settings content to the section menu when navigating up or down. Off-screen options scroll into view; press Left to return to sections.
+- Enlarged the Hittite artwork in About and removed the repeated logo beneath it.
+- Moved the Enterla and MemoriBox QR cards to the bottom under “Our other apps.”
 
 ## 1.0.12
 
-- Ayarlarda ayrı Güncellemeler bölümü: sürüm durumu, son kontrol zamanı, yenilikler ve tek tuşla güncelleme.
-- Yeni sürüm bildirimi, yenilikleri Güncelle / Sonra seçenekleriyle gösterir; yayın arka planda devam eder.
-- Sonra denilen güncelleme unutulmaz: M3U ve Xtream önizlemelerinde kumandayla erişilen güncelleme işareti, uygulama yeniden açılsa da kalır. Yeni sürüm kurulunca kalkar.
-- Hakkında yenilendi: büyük Hitit görseli, ortalanmış uygulama logosu, kısa oynatıcı açıklaması, geliştirici bilgisi ve kompakt Enterla / MemoriBox QR bağlantıları.
-- Kullanılan AndroidX Media3, FFmpeg / io.put ve AndroidX Core için kumandayla seçilen kartlardan ayrı pencerede tam lisans metinleri.
+- Added a dedicated Updates section with version status, last-check time, release notes and an update action.
+- Update prompts show what's new with Update / Later choices while playback continues in the background.
+- Deferred updates remain accessible beside the M3U / Xtream preview and in Settings, including after reopening the app. The reminder clears after installation.
+- Refreshed About with Hittite artwork, app identity, developer details and compact Enterla / MemoriBox QR links.
+- Added remote-selectable license cards for AndroidX Media3, FFmpeg / io.put and AndroidX Core, opening full license texts in separate dialogs.
 
 ## 1.0.11
 
-- Uygulama içinden güncelleme: yeni sürüm bildirimi, indirme ilerlemesi ve Android'in kullanıcı onaylı kurulum ekranı.
-- Ayarlar → Hakkında üzerinden elle güncelleme kontrolü ve otomatik kontrolü açıp kapatma. Otomatik kontrol yalnızca uygulama açıkken, başarılı kontrolden sonra günde bir yapılır; ağ hataları yayına uyarı çıkarmaz.
-- Standart / açılış yardımcılı APK seçimi korunur. Dosya boyutu, SHA-256, paket kimliği, sürüm, APK çeşidi ve kurulu uygulamanın imzası doğrulanır. Listeler ve tercihler silinmez.
-- İlk prototipten bugüne sürüm geçmişi uygulamanın içinde çevrimdışı okunabilir.
-- APK indirmeleri kaynak kod içermeyen ayrı, herkese açık dağıtım alanından sunulur.
+- Added in-app update notifications, download progress and Android's user-approved installation screen.
+- Added a manual check and automatic-check toggle in Settings → About. Automatic checks run only while the app is open, once a day after a successful check; network errors do not interrupt playback.
+- Updates preserve the standard / startup-helper variant. Downloads are checked for size, SHA-256, package identity, version, variant and signing certificate. Playlists and preferences are kept.
+- Added an offline release history from the first prototype onward.
+- Moved APK downloads to a separate public distribution repository without publishing the application source.
 
 ## 1.0.10
 
-- Önizlemeli açılışta kumanda odağı Ara yerine son izlenen kanalın satırına / kartına verilir. Uykudan önizlemeye dönüldüğünde de kanal listesi hazırdır; açık ayar veya ileti penceresine dokunulmaz.
-- Tam ekran / yalnız liste açılışı ve kullanıcı sonradan Ara düğmesine geçtiğinde odağın korunması sürer.
+- Preview startup places remote focus on the last channel's row or card instead of Search, including after sleep. Open settings and dialogs are left alone.
+- Preserved full-screen / list-only startup and the user's focus after they manually move to Search.
 
 ## 1.0.9
 
-- Mağazasız dağıtım için aynı uygulama sertifikasıyla imzalı, R8 ile küçültülmüş basic / assisted release APK'ları. Yerel derleme betiği imza, hata ayıklama ve 16 KB paket hizası kontrolleri yapar.
-
-- Uygulamanın görünen adı Enterla IPTV oldu. Paket kimliği ve yerel veri alanı korunur.
-- Ayarlarda ayrı Hakkında bölümü: Enterla / MemoriBox HTTPS bağlantıları, telefondan okutulabilen çevrimdışı QR kodlar ve ücretsiz oynatıcı açıklaması.
-- Küçük E simgesi korundu; Android TV yatay başlatıcı görselinde Enterla IPTV adı kullanılır.
+- Prepared signed, R8-minified standard and startup-helper APKs for distribution outside app stores, using the same certificate. Build checks cover signatures, debugging flags and 16 KB package alignment.
+- Renamed the app to Enterla IPTV while keeping its package identity and local data.
+- Added About with Enterla / MemoriBox HTTPS links, offline QR codes and a short free-player description.
+- Kept the E icon and added Enterla IPTV branding to the Android TV launcher banner.
 
 ## 1.0.8
 
-- Akıcılık ve Cihaz uyumu tek Performans bölümünde birleştirildi. Çalışma modu / tampon önde; kalite sınırı, decoder ve ekran ritmi gelişmiş bölümde.
-- Çok satırlı seçenek kartlarında üst / alt kenar kayması ve kesilmesi düzeltildi; satırdaki kartlar aynı yükseklikte ölçülür.
-- Daha sakin ince yüzey çizgileri, ortak köşe ölçüleri ve ferah seçenek aralıkları. Kumanda odağı ve seçili tercih ayrı görünmeye devam eder.
-- Büyük yazıda başlık ve düğmeler gereken yüksekliğe açılır. Üst araç çubuğu yalnızca yer yetmediğinde ikinci satıra geçer; küçük önizlemede boş ekran açıklaması sadeleşir.
-- M3U / Xtream satır ve kart yükseklikleri yazıya uyar. Resimsiz kartlarda gereksiz poster boşluğu ayrılmaz.
+- Combined playback smoothness and device compatibility under Performance. Working mode and buffering appear first; quality limits, decoder and display timing are in advanced options.
+- Fixed clipped or shifted borders on multiline cards and gave cards in a row matching heights.
+- Refined borders, corners and spacing while keeping remote focus distinct from the selected setting.
+- Let headings, buttons, rows and cards adapt to larger text. The toolbar wraps only when needed; cards without artwork no longer reserve empty poster space.
 
 ## 1.0.7
 
-- Cihaz uyumu: Otomatik / Dengeli / Yüksek kalite; varsayılan Dengeli. Arayüz ve görüntü desteği ayrı değerlendirilir; mevcut yazı boyutu, kanal düzeni, tema ve açılış tercihleri korunur.
-- Donanım çözücüsü ve bağlı TV destekliyorsa 4K / 8K dahil uygun kalite seçilebilir. Genel 1080p / 12 Mb/sn sınırı kaldırıldı; eski aquaman Mi Stick'in otomatik koruması korundu. Kalite seçimi tek kaynaklı videoyu dönüştürmez.
-- Afiş ayrıntısı, renk derinliği, önbellek bütçesi ve yumuşak düğme geçişleri cihaz / mod seçimine uyar. Düşük bellek koruması her modda sürer; bellek baskısında afiş önbelleği temizlenir.
-- İlk açılışta bir defalık, odağı almayan cihaz özeti. Ayarlarda mod değişince yayın durmadan kısa bir görsel geçiş ve seçilen modun özeti.
+- Added Automatic / Balanced / High quality device modes, with Balanced as the default. Existing text size, layout, theme and startup choices are kept.
+- Allow suitable quality, including 4K / 8K, when the decoder and TV support it. Removed the general 1080p / 12 Mb/s cap while retaining protection for the older aquaman Mi Stick. Quality selection does not convert a single-source stream.
+- Adapted artwork detail, color depth, cache budgets and transitions to the device and mode. Low-memory protection remains active in every mode.
+- Added a one-time device summary that does not take focus, plus visual feedback when changing mode without stopping playback.
 
 ## 1.0.6
 
-- Kumanda odağında daha belirgin dolgu ve üç birim kalınlığında çerçeve; üst düğmeler, boyut düğmesi ve ayarlar ortak stili kullanır.
-- Liste / kartlarda gerçek kumanda odağı, odağın ayrıldığı eski satırdan ayrı gösterilir. M3U, Xtream ve tam ekran kanal paneli aynı davranır.
-- Önizleme odaktayken açık / koyu görüntüde seçilebilen çift renkli kalın çerçeve ve OK ile tam ekran ipucu. Tam ekrana geçince odak süsleri gizlenir; dönüşte tekrar çalışır.
-- Oynatma, tampon, çözücü ve açılış ayarları değiştirilmedi. Yeni animasyon veya görüntü filtresi eklenmedi.
+- Strengthened remote focus across toolbars, settings, channel rows, cards and the full-screen panel.
+- Added a two-tone preview border and an OK-to-open hint, hidden during full-screen playback.
+- Kept playback, buffering, decoder and startup behavior unchanged; no extra video filter was added.
 
 ## 1.0.5
 
-- Görüntü uyumluluğu: Android 9 ve önceki aquaman / Amlogic Mi Stick'te kanal geçişlerinde eski çözücü durumu taşınmadan temiz oynatıcı açılır. M3U ve Xtream ortak davranır; ses yedeği ve ekran uyumu korunur.
-- Ayarlar → Akıcılık altında Otomatik / Normal / Temiz başlangıç seçimi. Mevcut yayını kesmez; sonraki yayında uygulanır. Diğer cihazlarda otomatik seçim mevcut davranışı korur.
-- Asenkron görüntü kuyruklaması aynı eski Mi Stick'te bir kullanıcı tercihi bulunmadığında otomatik açılır. Var olan açık / kapalı tercihi korunur; diğer cihazlarda varsayılan değişmez. Kullanıcı TV 8.5 ve TRT 2'de iyileşme, TRT 2'de hâlâ nadir takılma bildirdi.
-- Teşhiste AVC başlığının düz kare / geçmeli tarama ayrımı ve uzun kare planlama aralıkları. Başlık işaretleri kesin görüntü kalitesi veya her karenin tarama biçimi olarak sunulmaz.
-- Düz ve geçmeli sentetik yayınlar arasında gerçek ses / görüntü çözülerek kanal geçişi, normal moda dönüş ve Xtream'de aynı uyumluluk davranışı sınanır.
-- Bu sürüm cihazın yeniden başlama nedeninin çözüldüğü veya her geçmeli yayının akıcılığının düzeldiği iddiasını taşımaz.
+- Added fresh-player channel switching for older aquaman / Amlogic Mi Sticks, avoiding reuse of the previous decoder state in M3U and Xtream. Audio fallback and display matching are preserved.
+- Added Automatic / Normal / Fresh start compatibility choices, applied to the next stream without interrupting the current one.
+- Enabled asynchronous video queueing on the older Mi Stick when no user choice exists. Existing preferences and other devices' defaults are kept. Reported results included smoother playback, with occasional stutter remaining.
+- Added AVC scan-header and long frame-scheduling diagnostics. Tested switching between synthetic progressive and interlaced sources with real audio / video decoding.
+- This release did not establish a fix for device reboots or guarantee smooth playback of every interlaced stream.
 
 ## 1.0.4
 
-- Media3 1.11.1'e geçildi. Donanım ses çözücüsünün desteklemediği yaygın ses biçimlerinde kullanılan FFmpeg yedeği eklendi; MP2 sesli Beyaz TV gerçek Mi Stick'te doğrulandı.
-- M3U / Xtream ortak oynatma yapılandırması ve belleği sınırlı üç tampon profili: Hızlı geçiş, Dengeli (varsayılan), Daha dayanıklı. Kesinti sonrası başlama rezervi artırıldı.
-- Ekran hızı varsayılan olarak otomatik eşleştirilir. Desteklenen aynı çözünürlükteki ekran modları arasından uygun ritim seçilir; TV ayarını koruma ve elle seçim de vardır. Mi Stick'te 25 kare/sn ölçümüyle 50 Hz çıkış doğrulandı.
-- Bilgi şeridinde gerçek çözülen görüntü boyutu ve varsa kare hızı; biçim bildirmiyorsa kare zamanlarından yaklaşık hız gösterilir.
-- Ayarlar → Akıcılık: tampon, eski Android'ler için ek görüntü işleme seçeneği, ekran eşleştirme, canlı yayın teşhisi ve aynı yayını temiz bağlantıyla yeniden başlatma. Ses / altyazı ayarları ayrı bölümde kaldı.
-- Teşhis ekranında tampon, veri hızı, ses biçimi / çözülmüş ses paketleri, görüntü çözücüsü, kare kaybı ve beklemeler görünür. Özel adresler / hesaplar teşhis çıktısına eklenmez.
-- Desteklenmeyen yayın biçiminde açıklayıcı durum mesajı; kanal değiştirme açık kalır.
-- Xtream yüklenirken önceki satıra ait sırada kalan tuşun yanlış içerik açması engellendi; ölçek değişimi yükleme ekranını korur.
-- Film / dizi arayüzü yeniden çizilince duraklama durumu ve oynatma kontrolleri korunur.
-- Açık kaynak lisansları ve kullanılan FFmpeg sürümüne ait kaynak / yeniden bağlantı bilgileri uygulamaya eklendi.
+- Updated to Media3 1.11.1 and added FFmpeg audio fallback, including MP2 verification on the physical Mi Stick.
+- Shared M3U / Xtream playback configuration and added three memory-bounded buffer profiles with a larger reserve after interruptions.
+- Added automatic refresh-rate matching, TV-default and manual options. Verified 50 Hz output with measured 25 fps content on the Mi Stick.
+- Added actual decoded video dimensions, reported or estimated frame rate, and buffer / audio / video diagnostics without private URLs or account details.
+- Kept channel switching available during unsupported-format errors, fixed queued Xtream input during loading and preserved pause state when resizing movie / series views.
+- Added third-party licenses and source / relinking information for the bundled FFmpeg version.
 
 ## 1.0.3
 
-- Varsayılan arka plan #070F1C; hafif lacivert geçiş, daha sakin kartlar ve beyaz yazılı mavi odak / seçim durumları.
-- Ayarlar → Renkler: altı hazır renk, özel #RRGGBB kodu ve varsayılana dönme. Yazılar ve yüzeyler otomatik uyarlanır; beyaz zeminde siyah yazılar kullanılır.
-- Açık anahtarda belirgin renkli çerçeve ve dolu anahtar; kapalı durumda gri anahtar. Kumanda odağı ile seçili değer ayrılır.
-- Xtream film / dizide OK durdurur veya devam ettirir; sağ / sol 10 saniye ileri / geri alır. Canlı kanal komutları ve yanlış liste uyarısı araya girmez.
-- M3U ve Xtream canlı kategorisinde çok haneli kanal numarası girişi, sayısal klavye desteği ve geçersiz numarada mevcut kanalı koruma.
-- Xtream canlı kanal numaraları kategori sırasını korur; filtre içinde satır / kart / bilgi paneli aynı numarayı gösterir.
+- Added the #070F1C navy theme, blue focus / selection states, six preset colors, custom HEX input and automatic text contrast.
+- Made enabled and disabled switches visually distinct.
+- Made OK pause / resume and Left / Right seek 10 seconds in Xtream movies and episodes, without live-TV controls getting in the way.
+- Added multi-digit channel-number input with category-consistent numbering and safe handling of invalid numbers.
 
 ## 1.0.2
 
-- M3U ve Xtream için ortak ayar ekranı: solda bölümler, sağda aynı pencere içinde değişen seçenekler.
-- Otomatik açılış ve kanal resimleri için yerinde aç/kapa anahtarları; seçili durumu belli radyo seçenekleri.
-- Açılış, yazı / satır boyutu, ses / altyazı ve görüntü boyutunu seçerken ayarlar kapanıp yeniden açılmaz.
-- “Sadece kanal listesi” yerine açıklamalı “Listeyi aç, yayını başlatma”; başlangıç görünümü ile tam ekran kanal panelinin farkı netleştirildi.
-- Ses, altyazı ve görüntü ayarları yayını yeniden başlatmadan uygulanır. Yazı boyutu değişirken aynı ayar penceresi ve seçilen bölüm korunur.
-- Tam ekran bilgi paneli yaklaşık yüzde 25 büyütüldü; yayın hazırken görünme süresi 4 saniyeden 7 saniyeye çıkarıldı. Önizleme panelinin boyutu korundu.
-- Üst çubuktaki E TV yazısı kaldırıldı; simge büyütüldü. Ortak düğme konumları korundu.
+- Added one persistent settings window with sections on the left, options on the right, in-place switches and clear radio selections.
+- Applied audio, subtitle and picture settings without restarting playback. Resizing keeps the current settings window and section.
+- Clarified startup layouts and the full-screen channel panel, enlarged full-screen info and extended its display time from four to seven seconds.
+- Removed the E TV wordmark from the top bar and enlarged the icon, keeping common controls aligned.
 
 ## 1.0.1
 
-- Liste okunurken logolu hazırlık ekranı; kayıtlı liste yüklenmeden yanlışlıkla "Henüz bir listen yok" gösterilmez.
-- Hazırlık, gerçek liste / önbellek hazır olduğunda biter; yapay bekleme eklenmez. Boş hesap ve okuma hatası da hazırlıktan çıkar.
-- M3U ↔ Xtream kaynak değişiminde ara kaynak ekranı ve kaydırma animasyonu kaldırıldı.
-- Xtream ana sayfasında M3U'ya döndüren Geri düğmesi yok; iç bölümlerde Geri korunur. Ana sayfada kumandanın Geri tuşu TV ana ekranını açar.
-- İki kaynakta ortak üst çubuk: Ara, ekran boyutu, Listeler, Ayarlar, ÇIKIŞ ve saat aynı yerlerde.
-- Xtream görünüm / yenileme / iç bölüm Geri düğmeleri içerik alanına taşındı; açılış ayarları her iki kaynaktan aynı seçeneklerle açılır.
+- Added a preparation screen so saved playlists are not briefly shown as missing. Loading ends when data is ready, without an artificial delay.
+- Removed intermediate screens and slide transitions when switching M3U ↔ Xtream.
+- Clarified Xtream Back navigation and aligned the shared toolbar across sources.
+- Moved Xtream-specific view, refresh and inner Back controls into the content area.
 
 ## 1.0.0
 
-- M3U listeleri ve Xtream hesapları arasında doğrudan kaynak geçişi; ayrı kaynak alanları.
-- M3U ve Xtream canlı kanalları için ortak liste / sağda önizleme ekranı.
-- Sol kanal alanında isteğe bağlı iki sütun resimli kartlar; yalnızca kaynakta bulunan resimler.
-- Tam ekranda kanal adı, yayın durumu ve gerçek indirme hızını gösteren bilgi paneli; yayın hazırken dört saniye sonra gizlenme.
-- Yüklenemeyen kanalda kumandayla geçiş; eski bağlantı ve yeniden denemelerin yeni kanalı etkilemesini engelleme.
-- Xtream son kanalının kategorisini koruma, eski eksik kategori bilgisini onarma ve son canlı kategori için özel önbellek.
-- Tam ekran yayın, önizlemeli liste veya yalnızca listeyle açılma ve uyku dönüşü.
-- Android 9 açılış desteği ve yeni Android TV için isteğe bağlı açılış yardımcısı.
-- Büyük yazılar, bağımsız liste boyutu, tam ekran kanal paneli ve sayfalama, ses / altyazı tercihleri.
-- Xtream film / dizi kategorileri, resimli görünümler, sezon ve bölüm seçimi.
-- E TV marka simgesi / yatay TV kartı ve sistem ana ekranına ÇIKIŞ.
+- Direct switching between separate M3U and Xtream areas, with a shared live-channel list and right-side preview.
+- Optional two-column artwork cards, independently sized text / lists and a paged full-screen channel panel.
+- Full-screen playback info, channel switching during errors, and protection from stale connections or retries.
+- Last-channel / category caching, full-screen / preview / list-only startup and wake layouts.
+- Android 9 startup support and an optional helper for newer Android TV versions.
+- Xtream movie / series categories, artwork, seasons and episodes; audio / subtitle preferences.
+- E TV branding, a TV launcher banner and Exit to the system home screen.
 
-## 0.1.11 · Önizleme
+## 0.1.11 · Preview
 
-- M3U ve Xtream canlı kanalları için ortak solda liste / sağda önizleme düzeni.
-- Sol kanal alanında iki sütun resimli kartlar; resimler kaynakta varsa gösterilir.
-- Kanal, yayın durumu ve indirme hızını gösteren bilgi paneli.
-- Kaynak seçimi, son kanal / açılış görünümü ve Xtream canlı önbelleği.
+- Shared live-channel list / preview layout, two-column artwork cards and playback info.
+- Source selection, last-channel / startup layout and Xtream live cache.
 
-## 0.1.10 · Önizleme
+## 0.1.10 · Preview
 
-- Android 15 / 16 TV uyumluluğu ve yeni Android sürümleri için isteğe bağlı açılış yardımcısı üzerinde çalışmalar.
-- Büyük yazı ve kumandayla kullanım düzenlemeleri.
+- Work on Android 15 / 16 TV compatibility and an optional startup helper.
+- Larger text and remote-navigation improvements.
 
-## 0.1.9 · Önizleme
+## 0.1.9 · Preview
 
-- Arayüz ve kanal listesi için ayrı boyut ayarları; hızlı boyut düğmesi.
-- Küçükten büyüğe daha geniş yazı ve satır seçenekleri.
+- Separate interface / channel-list sizing, a quick sizing button and more size options.
 
-## 0.1.8 · Önizleme
+## 0.1.8 · Preview
 
-- Liste ekleme sırasında görünür yükleme / hata geri bildirimi ve adres işlemleri.
-- ÇIKIŞ ile TV ana ekranına dönüş; oynatma tercihleri.
+- Visible playlist loading / error feedback, improved address handling, Exit and playback preferences.
 
-## 0.1.7 · Önizleme
+## 0.1.7 · Preview
 
-- E TV adı ve E / IPTV görseliyle ilk marka düzeni.
-- Kurulum ve liste ekranlarında açıklamaların sadeleştirilmesi.
+- Initial E TV branding with the E / IPTV icon and simpler setup explanations.
 
-## 0.1.6 · Önizleme
+## 0.1.6 · Preview
 
-- Yayın sürerken OK ile açılan kanal paneli; sağ / sol ile sayfa geçişi.
-- Kanal logolarını kaynak sağlıyorsa isteğe bağlı gösterme.
+- OK opens a channel panel during playback, with Left / Right paging and optional source-provided logos.
 
-## 0.1.5 · Önizleme
+## 0.1.5 · Preview
 
-- Xtream için Canlı TV / Filmler / Diziler alanları, sağlayıcı kategorileri, sezon ve bölüm seçimi.
-- Afiş / logo yükleme ve resimli görünümler.
+- Xtream Live TV / Movies / Series areas, provider categories, seasons, episodes and artwork.
 
-## 0.1.4 · Önizleme
+## 0.1.4 · Preview
 
-- Xtream sunucu, kullanıcı adı ve şifreyle giriş.
-- İlk kurulumda M3U veya Xtream seçimi ve canlı kanal kumanda yönünün düzenlenmesi.
+- Xtream sign-in, M3U / Xtream setup choice and adjusted live-TV remote directions.
 
-## 0.1.3 · Önizleme
+## 0.1.3 · Preview
 
-- `.m3u` uzantılı canlı yayınların HLS içeriğiyle doğru hazırlanması.
+- Correct HLS handling for live streams with a `.m3u` extension.
 
-## 0.1.2 · Önizleme
+## 0.1.2 · Preview
 
-- Android 9 Mi Stick için cihaz açılışında otomatik başlatma iyileştirmeleri.
+- Improved automatic startup on the Android 9 Mi Stick.
 
-## 0.1.1 · Önizleme
+## 0.1.1 · Preview
 
-- İlk APK kurulum ve Mi Stick uyumluluk düzenlemeleri.
+- Initial APK installation and Mi Stick compatibility adjustments.
 
-## 0.1.0 · İlk prototip
+## 0.1.0 · First prototype
 
-- Ev TV adıyla Türkçe Android TV oynatıcısı.
-- Dosyadan / internet adresinden M3U ekleme, kanal listesi, önizleme ve tam ekran izleme.
-- Büyük yazı, basit kumanda kullanımı ve son kanala devam etme odaklı ilk sürüm.
+- Turkish Android TV player under the original Ev TV name, with M3U file / URL import, channel list, preview and full-screen viewing.
+- Initial focus on large text, simple remote navigation and resuming the last channel.
