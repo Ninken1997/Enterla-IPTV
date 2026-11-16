@@ -4,6 +4,12 @@
 
 En yeni sürüm üsttedir. 1.0 öncesi notlar konuşma kaydı ve eldeki APK sürümlerinden geriye dönük derlenmiştir; eksiksiz bir değişiklik dökümü değildir.
 
+## 1.0.15
+
+- Yayına göre ekran hızı değişirken kısa bilgilendirme: geçişten önce görünür, kısa süre sonra kendiliğinden kapanır. Kumanda odağını almaz ve yayını duraklatmaz.
+- Aynı ekran hızında gereksiz bildirim gösterilmez. Hızlı kanal değişiminde veya uygulamadan çıkarken bekleyen eski ekran geçişi iptal edilir.
+- Kare E/IPTV simgesi yerine yatay Enterla yazısı ve hemen altında küçük, ortalı IPTV kullanılır. Bilgi kartı, ayar başlıkları ve boş önizleme daha sade hale getirildi.
+
 ## 1.0.14
 
 - Dil seçimi eklendi: Android dili otomatik kullanılır; desteklenmeyen dillerde İngilizce açılır. Ayarlar → Dil bölümünden elle seçim yapılabilir.

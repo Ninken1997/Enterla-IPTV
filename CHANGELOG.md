@@ -4,6 +4,12 @@
 
 Newest releases appear first. This is an English summary of the development history; the [Turkish history](CHANGELOG.tr.md) retains the detailed original notes. Entries before 1.0 were reconstructed from development records and available APKs, and are not a complete change log.
 
+## 1.0.15
+
+- Added a brief explanation before the TV refresh rate changes to match playback. It dismisses automatically without pausing playback or taking remote focus.
+- Avoided unnecessary notices when the refresh rate stays the same. Pending transitions are cancelled when changing channels or leaving playback.
+- Replaced the square E/IPTV artwork with a transparent horizontal Enterla wordmark and a small centered IPTV caption. Simplified settings headers, notices and the empty preview.
+
 ## 1.0.14
 
 - Added automatic device-language selection with English as the fallback, plus a manual picker in Settings → Language.

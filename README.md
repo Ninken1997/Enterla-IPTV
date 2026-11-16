@@ -8,6 +8,10 @@ A free IPTV player app for **Android TV and Google TV**. Watch your own **M3U pl
 
 Enterla IPTV is a player. **No channels, playlists or subscriptions are included.** Bring your own playlist or provider account.
 
+## What's new in 1.0.15
+
+A transparent horizontal Enterla wordmark, simpler headers and preview, and a short explanation before refresh-rate changes. Playback and remote control continue during the notice.
+
 ## Designed for everyday TV viewing
 
 - Load an M3U file or playlist URL, or sign in with an Xtream server, username and password.
