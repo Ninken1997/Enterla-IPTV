@@ -37,4 +37,4 @@ M3U dosyası / adresi veya Xtream hesabıyla kullanılır. Kanal veya abonelik i
 
 Bu alan resmî APK dağıtımı ve sürüm notları içindir.
 
-**Lisanslar:** Oynatma için AndroidX Media3 (Apache 2.0), ses uyumluluğu için io.put / FFmpeg (Apache 2.0 / LGPL 2.1+) ve AndroidX altyapısı kullanılır. Bildirimler ve tam lisans metinleri uygulamada Hakkında bölümündedir. [FFmpeg ses bileşeninin özgün kaynak / yeniden derleme paketi](https://github.com/Ninken1997/Enterla-IPTV/releases/download/v1.0.12/FFmpeg-audio-1.11.1-1-source.tar.xz) ayrı sunulur; Enterla IPTV'nin kendi kodu değildir.
+**Lisanslar:** Oynatma için AndroidX Media3 (Apache 2.0), ses uyumluluğu için io.put / FFmpeg (Apache 2.0 / LGPL 2.1+) ve AndroidX altyapısı kullanılır. Bildirimler ve tam lisans metinleri uygulamada Hakkında bölümündedir. [FFmpeg ses bileşeninin özgün kaynak / yeniden derleme paketi](https://github.com/Ninken1997/Enterla-IPTV/releases/download/v1.0.13/FFmpeg-audio-1.11.1-1-source.tar.xz) ayrı sunulur; Enterla IPTV'nin kendi kodu değildir.

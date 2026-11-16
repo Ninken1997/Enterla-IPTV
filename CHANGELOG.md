@@ -2,6 +2,12 @@
 
 En yeni sürüm üsttedir. 1.0 öncesi notlar konuşma kaydı ve eldeki APK sürümlerinden geriye dönük derlenmiştir; eksiksiz bir değişiklik dökümü değildir.
 
+## 1.0.13
+
+- Ayarlarda sağ sütunda yukarı / aşağı gezerken odağın sol sekmelere kaçması düzeltildi. Ekran dışındaki seçeneklere kaydırılır; sola basınca bölüm listesine dönülür.
+- Hakkında bölümünde Hitit figürleri büyütüldü; figürlerin altındaki tekrar logo kaldırıldı.
+- Enterla ve MemoriBox QR kartları, Diğer uygulamalarımız başlığıyla en alta taşındı.
+
 ## 1.0.12
 
 - Ayarlarda ayrı Güncellemeler bölümü: sürüm durumu, son kontrol zamanı, yenilikler ve tek tuşla güncelleme.
