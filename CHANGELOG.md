@@ -2,6 +2,12 @@
 
 En yeni sürüm üsttedir. 1.0 öncesi notlar konuşma kaydı ve eldeki APK sürümlerinden geriye dönük derlenmiştir; eksiksiz bir değişiklik dökümü değildir.
 
+## 1.0.14
+
+- Dil seçimi eklendi: Android dili otomatik kullanılır; desteklenmeyen dillerde İngilizce açılır. Ayarlar → Dil bölümünden elle seçim yapılabilir.
+- Türkçe, İngilizce, Almanca, İspanyolca, İtalyanca, Japonca, Brezilya Portekizcesi, Rusça ve Basitleştirilmiş Çince eklendi. Metinler TV kullanımı için gözden geçirildi; düğmeler, kumanda yönergeleri ve terimler sadeleştirildi.
+- Dil değişimi listeleri, hesapları ve ses / altyazı tercihlerini korur. Dil dosyaları çevrimdışı kullanılır; yeni diller tek JSON dosyasıyla eklenebilir.
+
 ## 1.0.13
 
 - Ayarlarda sağ sütunda yukarı / aşağı gezerken odağın sol sekmelere kaçması düzeltildi. Ekran dışındaki seçeneklere kaydırılır; sola basınca bölüm listesine dönülür.
@@ -63,7 +69,7 @@ En yeni sürüm üsttedir. 1.0 öncesi notlar konuşma kaydı ve eldeki APK sür
 
 - Görüntü uyumluluğu: Android 9 ve önceki aquaman / Amlogic Mi Stick'te kanal geçişlerinde eski çözücü durumu taşınmadan temiz oynatıcı açılır. M3U ve Xtream ortak davranır; ses yedeği ve ekran uyumu korunur.
 - Ayarlar → Akıcılık altında Otomatik / Normal / Temiz başlangıç seçimi. Mevcut yayını kesmez; sonraki yayında uygulanır. Diğer cihazlarda otomatik seçim mevcut davranışı korur.
-- Eski Mi Stick için asenkron görüntü kuyruklaması ve mevcut kullanıcı tercihlerini koruyan akıcılık düzenlemeleri.
+- Asenkron görüntü kuyruklaması aynı eski Mi Stick'te bir kullanıcı tercihi bulunmadığında otomatik açılır. Var olan açık / kapalı tercihi korunur; diğer cihazlarda varsayılan değişmez. Kullanıcı TV 8.5 ve TRT 2'de iyileşme, TRT 2'de hâlâ nadir takılma bildirdi.
 - Teşhiste AVC başlığının düz kare / geçmeli tarama ayrımı ve uzun kare planlama aralıkları. Başlık işaretleri kesin görüntü kalitesi veya her karenin tarama biçimi olarak sunulmaz.
 - Düz ve geçmeli sentetik yayınlar arasında gerçek ses / görüntü çözülerek kanal geçişi, normal moda dönüş ve Xtream'de aynı uyumluluk davranışı sınanır.
 - Bu sürüm cihazın yeniden başlama nedeninin çözüldüğü veya her geçmeli yayının akıcılığının düzeldiği iddiasını taşımaz.

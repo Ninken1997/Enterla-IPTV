@@ -1,6 +1,6 @@
 # Enterla IPTV
 
-Android TV / Google TV için ücretsiz, Türkçe M3U ve Xtream oynatıcısı.
+Android TV / Google TV için ücretsiz, çok dilli M3U ve Xtream oynatıcısı.
 
 **[En güncel APK'yı indir](https://github.com/Ninken1997/Enterla-IPTV/releases/latest)**
 
@@ -12,6 +12,8 @@ Android TV / Google TV için ücretsiz, Türkçe M3U ve Xtream oynatıcısı.
 M3U dosyası / adresi veya Xtream hesabıyla kullanılır. Kanal veya abonelik içermez. Büyük yazı, belirgin kumanda odağı, kanal paneli, film / dizi kategorileri ve cihaz uyumu ayarları sunar.
 
 **Güncellemeler:** Ayarlar → Güncellemeler. İndirme sonrası Android'in Yükle onayı gerekir. İlk kurulumda Android, APK'yı açan uygulama için yükleme izni isteyebilir. 1.0.10 ve öncesi sürümlerden gelenler güncelleme özelliğini almak için yeni APK'yı bir kez elle kurmalıdır.
+
+**Dil:** Android'in dili otomatik kullanılır; desteklenmeyen dillerde İngilizce açılır. Ayarlar → Dil bölümünden elle seçim yapılabilir ve tercihiniz korunur. Türkçe, İngilizce, Almanca, İspanyolca, İtalyanca, Japonca, Brezilya Portekizcesi, Rusça ve Basitleştirilmiş Çince desteklenir. Sağlayıcının kanal adları ve kategorileri değişmez.
 
 ## Nerede çalışır?
 
@@ -37,4 +39,4 @@ M3U dosyası / adresi veya Xtream hesabıyla kullanılır. Kanal veya abonelik i
 
 Bu alan resmî APK dağıtımı ve sürüm notları içindir.
 
-**Lisanslar:** Oynatma için AndroidX Media3 (Apache 2.0), ses uyumluluğu için io.put / FFmpeg (Apache 2.0 / LGPL 2.1+) ve AndroidX altyapısı kullanılır. Bildirimler ve tam lisans metinleri uygulamada Hakkında bölümündedir. [FFmpeg ses bileşeninin özgün kaynak / yeniden derleme paketi](https://github.com/Ninken1997/Enterla-IPTV/releases/download/v1.0.13/FFmpeg-audio-1.11.1-1-source.tar.xz) ayrı sunulur; Enterla IPTV'nin kendi kodu değildir.
+**Lisanslar:** Oynatma için AndroidX Media3 (Apache 2.0), ses uyumluluğu için io.put / FFmpeg (Apache 2.0 / LGPL 2.1+) ve AndroidX altyapısı kullanılır. Bildirimler ve tam lisans metinleri uygulamada Hakkında bölümündedir. [FFmpeg ses bileşeninin özgün kaynak / yeniden derleme paketi](https://github.com/Ninken1997/Enterla-IPTV/releases/download/v1.0.14/FFmpeg-audio-1.11.1-1-source.tar.xz) ayrı sunulur; Enterla IPTV'nin kendi kodu değildir.
