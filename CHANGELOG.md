@@ -4,6 +4,14 @@
 
 Newest releases appear first. This is an English summary of the development history; the [Turkish history](CHANGELOG.tr.md) retains the detailed original notes. Entries before 1.0 were reconstructed from development records and available APKs, and are not a complete change log.
 
+## 1.0.16
+
+- Replaced the grainy wordmark image with clean vector outlines. Enlarged the header wordmark and centered IPTV caption, including the TV launcher artwork.
+- Added a remote-friendly color palette with brightness, saturation and a readable preview. No color codes or keyboard are needed; Apply saves the choice and Cancel keeps the current theme.
+- Back now asks before leaving the M3U preview, welcome/source screens or Xtream home. Cancel keeps playback; Exit opens the device menu. The startup helper respects an explicit exit.
+- Clarified the optional Home-button shortcut as a direct way to open the app if automatic startup does not happen. Made device-compatibility descriptions independent of a particular device brand; existing device-specific playback behavior is preserved.
+- Updated settings and remote instructions across all nine supported languages, including automatic dark text on light color previews.
+
 ## 1.0.15
 
 - Added a brief explanation before the TV refresh rate changes to match playback. It dismisses automatically without pausing playback or taking remote focus.

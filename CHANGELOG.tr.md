@@ -4,6 +4,14 @@
 
 En yeni sürüm üsttedir. 1.0 öncesi notlar konuşma kaydı ve eldeki APK sürümlerinden geriye dönük derlenmiştir; eksiksiz bir değişiklik dökümü değildir.
 
+## 1.0.16
+
+- Enterla yazısının pütürlü PNG dokusu temiz vektör çizgilerle değiştirildi; logo ekran boyutuna göre net çizilir ve transparan kalır.
+- Üstteki marka biraz büyütüldü. Ortalı IPTV yazısı uygulamada ve TV başlatıcı görselinde daha okunaklı boyuta getirildi.
+- Açılış ayarları Ana Sayfa tuşunun ne yapacağını açıkça anlatır; cihaz modeline özel görünen ayar açıklamaları Android TV / Google TV kullanımına uygun hâle getirildi.
+- Önizlemeli kanal ekranında ve başlangıç ekranlarında Geri, çıkış onayı açar. Vazgeç yayını korur; ÇIKIŞ cihaz menüsüne döner ve açılış yardımcısının hemen geri getirmesini önler.
+- Kendi rengin bölümüne kumandayla kullanılan renk paleti eklendi. Renk kodu yazmadan renk, parlaklık ve yoğunluk seçilir; önizleme sonrası uygulanır. Açık zeminde yazı otomatik koyulaşır.
+
 ## 1.0.15
 
 - Yayına göre ekran hızı değişirken kısa bilgilendirme: geçişten önce görünür, kısa süre sonra kendiliğinden kapanır. Kumanda odağını almaz ve yayını duraklatmaz.

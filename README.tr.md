@@ -17,9 +17,9 @@ M3U dosyası / adresi veya Xtream hesabıyla kullanılır. Kanal veya abonelik i
 
 **Dil:** Android'in dili otomatik kullanılır; desteklenmeyen dillerde İngilizce açılır. Ayarlar → Dil bölümünden elle seçim yapılabilir ve tercihiniz korunur. Türkçe, İngilizce, Almanca, İspanyolca, İtalyanca, Japonca, Brezilya Portekizcesi, Rusça ve Basitleştirilmiş Çince desteklenir. Sağlayıcının kanal adları ve kategorileri değişmez.
 
-## 1.0.15 yenilikleri
+## 1.0.16 yenilikleri
 
-Transparan yatay Enterla yazısı, daha sade başlıklar ve önizleme; ekran hızı değişmeden önce kısa açıklama. Bildirim sırasında yayın ve kumanda kullanımı devam eder.
+Daha net vektör logo, kumandayla kullanılan renk paleti, anlaşılır Home tuşu ayarı ve Geri ile çıkış onayı. Renk değişimi yayını korur; açık renklerde yazı otomatik koyulaşır.
 
 ## Nerede çalışır?
 
