@@ -2,6 +2,14 @@
 
 En yeni sürüm üsttedir. 1.0 öncesi notlar konuşma kaydı ve eldeki APK sürümlerinden geriye dönük derlenmiştir; eksiksiz bir değişiklik dökümü değildir.
 
+## 1.0.12
+
+- Ayarlarda ayrı Güncellemeler bölümü: sürüm durumu, son kontrol zamanı, yenilikler ve tek tuşla güncelleme.
+- Yeni sürüm bildirimi, yenilikleri Güncelle / Sonra seçenekleriyle gösterir; yayın arka planda devam eder.
+- Sonra denilen güncelleme unutulmaz: M3U ve Xtream önizlemelerinde kumandayla erişilen güncelleme işareti, uygulama yeniden açılsa da kalır. Yeni sürüm kurulunca kalkar.
+- Hakkında yenilendi: Hitit görseli, Enterla IPTV kimliği, kısa oynatıcı açıklaması, geliştirici bilgisi ve kompakt Enterla / MemoriBox QR bağlantıları.
+- Kullanılan AndroidX Media3, FFmpeg / io.put ve AndroidX Core için bileşen / lisans bilgileri ve tam metinlere erişim.
+
 ## 1.0.11
 
 - Uygulama içinden güncelleme: yeni sürüm bildirimi, indirme ilerlemesi ve Android'in kullanıcı onaylı kurulum ekranı.

@@ -11,7 +11,7 @@ Android TV / Google TV için ücretsiz, Türkçe M3U ve Xtream oynatıcısı.
 
 M3U dosyası / adresi veya Xtream hesabıyla kullanılır. Kanal veya abonelik içermez. Büyük yazı, belirgin kumanda odağı, kanal paneli, film / dizi kategorileri ve cihaz uyumu ayarları sunar.
 
-**Güncellemeler:** Ayarlar → Hakkında → Sürüm / Güncelle. İndirme sonrası Android'in Yükle onayı gerekir. İlk kurulumda Android, APK'yı açan uygulama için yükleme izni isteyebilir. 1.0.10 ve öncesi sürümlerden gelenler güncelleme özelliğini almak için yeni APK'yı bir kez elle kurmalıdır.
+**Güncellemeler:** Ayarlar → Güncellemeler. İndirme sonrası Android'in Yükle onayı gerekir. İlk kurulumda Android, APK'yı açan uygulama için yükleme izni isteyebilir. 1.0.10 ve öncesi sürümlerden gelenler güncelleme özelliğini almak için yeni APK'yı bir kez elle kurmalıdır.
 
 ## Nerede çalışır?
 
@@ -36,3 +36,5 @@ M3U dosyası / adresi veya Xtream hesabıyla kullanılır. Kanal veya abonelik i
 [Enterla](https://www.enterla.net/) · [MemoriBox](https://www.memoribox.net/)
 
 Bu alan resmî APK dağıtımı ve sürüm notları içindir.
+
+**Lisanslar:** Oynatma için AndroidX Media3 (Apache 2.0), ses uyumluluğu için io.put / FFmpeg (Apache 2.0 / LGPL 2.1+) ve AndroidX altyapısı kullanılır. Bildirimler ve tam lisans metinleri uygulamada Hakkında bölümündedir. [FFmpeg ses bileşeninin özgün kaynak / yeniden derleme paketi](https://github.com/Ninken1997/Enterla-IPTV/releases/download/v1.0.12/FFmpeg-audio-1.11.1-1-source.tar.xz) ayrı sunulur; Enterla IPTV'nin kendi kodu değildir.
