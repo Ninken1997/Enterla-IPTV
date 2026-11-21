@@ -8,9 +8,9 @@ A free IPTV player app for **Android TV and Google TV**. Watch your own **M3U pl
 
 Enterla IPTV is a player. **No channels, playlists or subscriptions are included.** Bring your own playlist or provider account.
 
-## What's new in 1.0.16
+## What's new in 1.0.17
 
-A sharper vector wordmark, a remote-friendly color palette, clearer Home-button setup and Back-to-exit confirmation. Theme changes preserve playback, and light colors automatically use dark text.
+Data saver stops live TV from using data indefinitely when a channel is left on. Choose a time limit in Settings → Data saver; the default is 3 hours. A reminder lets you keep watching, and a stopped stream stays stopped until you choose to continue or select a channel. Xtream movies and series are unaffected.
 
 ## Designed for everyday TV viewing
 

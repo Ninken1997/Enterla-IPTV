@@ -4,6 +4,13 @@
 
 En yeni sürüm üsttedir. 1.0 öncesi notlar konuşma kaydı ve eldeki APK sürümlerinden geriye dönük derlenmiştir; eksiksiz bir değişiklik dökümü değildir.
 
+## 1.0.17
+
+- İnternet kotası koruması: aynı canlı kanal seçilen süre boyunca açık kaldığında yayın bağlantısı kapatılır. Varsayılan 3 saat; kapalı, 1, 3, 5, 12 saat ve 1 gün seçenekleri vardır.
+- Süre dolmadan bir dakika önce izlemeye devam etme uyarısı görünür. Yanıt gelmezse, yayının neden durduğunu ve koruma ayarlarını açıkça anlatan ekran gösterilir.
+- İzlemeye devam et veya kanal seçimi süreyi yeniden başlatır. Ağın yeniden bağlanması, uyku dönüşü ve uygulamanın yeniden açılması durdurulan yayını kendiliğinden başlatmaz.
+- M3U ve Xtream canlı kanallarında aynı koruma kullanılır. Film ve diziler etkilenmez; yeni ekranlar dokuz dilde ve mevcut renk / yazı boyutu ayarlarıyla çalışır.
+
 ## 1.0.16
 
 - Enterla yazısının pütürlü PNG dokusu temiz vektör çizgilerle değiştirildi; logo ekran boyutuna göre net çizilir ve transparan kalır.

@@ -17,9 +17,9 @@ M3U dosyası / adresi veya Xtream hesabıyla kullanılır. Kanal veya abonelik i
 
 **Dil:** Android'in dili otomatik kullanılır; desteklenmeyen dillerde İngilizce açılır. Ayarlar → Dil bölümünden elle seçim yapılabilir ve tercihiniz korunur. Türkçe, İngilizce, Almanca, İspanyolca, İtalyanca, Japonca, Brezilya Portekizcesi, Rusça ve Basitleştirilmiş Çince desteklenir. Sağlayıcının kanal adları ve kategorileri değişmez.
 
-## 1.0.16 yenilikleri
+## 1.0.17 yenilikleri
 
-Daha net vektör logo, kumandayla kullanılan renk paleti, anlaşılır Home tuşu ayarı ve Geri ile çıkış onayı. Renk değişimi yayını korur; açık renklerde yazı otomatik koyulaşır.
+İnternet kotası koruması, aynı kanal açık unutulduğunda yayın indirmesini durdurur. Ayarlar → İnternet kotası koruması bölümünden süre seçin; varsayılan 3 saattir. Uyarıda izlemeye devam edebilir, süreyi değiştirebilir veya korumayı kapatabilirsiniz. Durdurulan yayın siz devam etmeden ya da kanal seçmeden yeniden başlamaz. Xtream film ve dizileri etkilenmez.
 
 ## Nerede çalışır?
 

@@ -4,6 +4,13 @@
 
 Newest releases appear first. This is an English summary of the development history; the [Turkish history](CHANGELOG.tr.md) retains the detailed original notes. Entries before 1.0 were reconstructed from development records and available APKs, and are not a complete change log.
 
+## 1.0.17
+
+- Added Data saver for live TV: stop a channel automatically after 1, 3, 5 or 12 hours, or 1 day. The default is 3 hours; choose Off to disable it.
+- A reminder appears one minute before the limit. Keep watching or change channels to start a new timer. If there is no response, the player closes the stream connection to stop downloading data.
+- A clear Stream stopped screen explains what happened and offers Keep watching, Data saver settings and Channel list. Automatic reconnections and reopening the app do not restart a stopped stream.
+- The same protection works in M3U and Xtream live TV. Xtream movies and series are unaffected. New controls support all nine languages, themes and text sizes.
+
 ## 1.0.16
 
 - Replaced the grainy wordmark image with clean vector outlines. Enlarged the header wordmark and centered IPTV caption, including the TV launcher artwork.
